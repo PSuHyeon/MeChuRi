@@ -53,18 +53,33 @@
 ## Tab 3: 메뉴 추천 앱 ft.110여개의 카이스트 주변 맛집 정보
 
 ### (1) 메뉴 자동 룰렛 추천
+
+
+![Uploading KakaoTalk_Photo_2022-07-05-20-34-22.gif…]()
+
+
+
 * 추천 시 dynamic 하게 ImageView와 TextView를 수정
+
+![KakaoTalk_Photo_2022-07-05-20-32-56 002](https://user-images.githubusercontent.com/99390261/177318346-58ae974a-8928-48b6-88df-31318a308e9c.png)
 
 ### (2) 맛집 상세 정보
 * (1)에서 선택 된 메뉴와 일치하는 맛집 정렬
 * pager를 이용한 맛집 정렬 후 자연스러운 이동 가능
 
+![KakaoTalk_Photo_2022-07-05-20-32-56 001](https://user-images.githubusercontent.com/99390261/177318376-0e7c0fa7-0112-4f6d-95d1-fd000088e039.png)
+
 ### (3) 맛집 위치 상세 정보
 * (2)에서 선택한 맛집 위치와 내 현재 위치 좌표 마킹
 * 거리와 이동 시간 계산 후 표기
+
+![KakaoTalk_Photo_2022-07-05-20-33-52](https://user-images.githubusercontent.com/99390261/177318473-32f0ce13-9696-43c6-8cde-0ff8af60e6fd.png)
+
 
 ### (4) 맛집 사용자 추가
 * 기존 맛집 이외에 사용자 선택적 추가 기능
 * 이름으로 좌표 찾는 API 구현
   * 위치 정보를 선택적 입력 가능 (이름으로 위치 정보 자동 입력)
   
+![KakaoTalk_Photo_2022-07-05-20-32-56 003](https://user-images.githubusercontent.com/99390261/177318418-377ab5ca-3d1d-40d1-9c5a-c9464fca3628.png
+
