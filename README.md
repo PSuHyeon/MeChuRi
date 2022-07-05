@@ -54,10 +54,7 @@
 
 ### (1) 메뉴 자동 룰렛 추천
 
-
-![Uploading KakaoTalk_Photo_2022-07-05-20-34-22.gif…]()
-
-
+https://user-images.githubusercontent.com/99390261/177318700-3c007667-3166-4e31-9303-bb3ef8d4fee6.gif
 
 * 추천 시 dynamic 하게 ImageView와 TextView를 수정
 
@@ -81,5 +78,4 @@
 * 이름으로 좌표 찾는 API 구현
   * 위치 정보를 선택적 입력 가능 (이름으로 위치 정보 자동 입력)
   
-![KakaoTalk_Photo_2022-07-05-20-32-56 003](https://user-images.githubusercontent.com/99390261/177318418-377ab5ca-3d1d-40d1-9c5a-c9464fca3628.png
-
+![KakaoTalk_Photo_2022-07-05-20-32-56 003](https://user-images.githubusercontent.com/99390261/177318418-377ab5ca-3d1d-40d1-9c5a-c9464fca3628.png]
