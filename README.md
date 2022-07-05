@@ -15,7 +15,7 @@
 * Item setOnclick Listener (Recycler view 안의 item을 클릭할 시)
   * 세부 정보, 이메일 주소, 주소 등 자세한 정보 표기
   * Intent를 사용한 외부 어플리케이션 이동
-    * 
+  -> 
   
 * Add/Delete feature
   * Add로 새로운 연락처 추가 가능
