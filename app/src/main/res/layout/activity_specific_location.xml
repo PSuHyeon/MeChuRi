@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".Specific_location"
+    android:orientation="vertical">
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        >
+        <TextView
+            android:background="@drawable/layout_bg4"
+            android:layout_margin="5dp"
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:hint="이름"
+            android:textSize="30dp"
+            android:padding="15dp"
+            android:fontFamily="@font/bmjua"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor = "#000000"
+            android:textColorHint="#000000"
+            />
+        <TextView
+            android:hint="주소"
+            android:fontFamily="@font/bmjua"
+            android:background="@drawable/layout_bg4"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:id="@+id/location_loc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="18dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:hint="거리"
+                    android:gravity="center"
+                    android:fontFamily="@font/bmjua"
+                    android:background="@drawable/layout_bg4"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:hint="거리"
+                    android:gravity="center"
+                    android:fontFamily="@font/bmjua"
+                    android:background="@drawable/layout_bg4"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/location_dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:hint="소요시간"
+                    android:gravity="center"
+                    android:fontFamily="@font/bmjua"
+                    android:background="@drawable/layout_bg4"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="20dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:hint="시간"
+                    android:gravity="center"
+                    android:fontFamily="@font/bmjua"
+                    android:background="@drawable/layout_bg4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/location_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

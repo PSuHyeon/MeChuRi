@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:src="@drawable/confusion"/>
+
+
+
+    <ImageView
+        android:id="@+id/add_icon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+
+    <ImageView
+        android:id="@+id/ic_upload"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/ic_upload"
+        />
+    <EditText
+        android:id="@+id/info_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:hint="이름을 입력하세요"
+        android:autoSizeTextType="uniform"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:autoSizeTextType="uniform"
+        android:id="@+id/info_num"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:hint="번호를 입력하세요"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:autoSizeTextType="uniform"
+        android:id="@+id/info_email"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:hint="이메일 주소를 입력하세요"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:autoSizeTextType="uniform"
+        android:id="@+id/info_loc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:hint="주소를 입력하세요"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <EditText
+        android:autoSizeTextType="uniform"
+    android:id="@+id/info_note"
+        android:layout_weight="1"
+    android:layout_width="match_parent"
+        android:layout_height="0dp"
+    android:layout_marginTop="20dp"
+    android:hint="기타 정보를 입력하세요" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+    />
+
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#DF813A"
+        android:id="@+id/info_add"
+        android:text="추가"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1.1"
+        />
+
+
+</LinearLayout>

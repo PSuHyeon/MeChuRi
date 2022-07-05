@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Specific_info3"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    >
+
+
+    <TextView
+        android:id="@+id/spec_place_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="맛집 정보가 없어요ㅠ"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:fontFamily="@font/bmjua"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/tung"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/background"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:background="@drawable/layout_bg4"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:paddingTop="5dp"
+        android:id="@+id/spec_place_dis"
+        android:hint="거리"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:layout_weight="0.5"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_bg4"
+            android:layout_weight="3">
+            <TextView
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/spec_place_loc"
+                android:hint="주소"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:layout_marginRight="10dp"
+                />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/link_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/layout_bg5"
+            android:text="Detail"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:background="@drawable/layout_bg4"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:paddingTop="5dp"
+            android:id="@+id/spec_place_num"
+            android:hint="번호"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            />
+
+        <Button
+            android:id="@+id/link_button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_bg5"
+            android:layout_marginLeft="10dp"
+            android:text="Call"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:background="@drawable/layout_bg4"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:id="@+id/spec_place_time"
+        android:hint="영업시간"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:layout_weight="1"
+
+        />
+
+
+</LinearLayout>

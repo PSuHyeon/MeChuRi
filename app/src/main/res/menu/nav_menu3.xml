@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_lunch_menu"
+        android:icon="@drawable/ic_refresh"
+        android:title="점심 메뉴 추가"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/add_dinner_menu"
+        android:icon="@drawable/ic_refresh"
+        android:title="저녁 메뉴 추가"
+        app:showAsAction="withText"/>
+</menu>

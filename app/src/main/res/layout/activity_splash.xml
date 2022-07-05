@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/confusion"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="메추리"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bmjua"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:text="Me-Chu-Ri"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/honeybaby1"
+        android:textColor="#964900"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:text="Copyright 2022 박수현, 현재오. all right reserved"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#B6B3B3"
+        android:paddingTop="20dp"/>
+
+
+</LinearLayout>

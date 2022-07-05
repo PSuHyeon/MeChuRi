@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_menu"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/add_menu_icon"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person"
+        android:layout_marginTop="30dp"/>
+
+
+    <Button
+        android:id="@+id/menu_upload"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_width="40dp"
+
+        android:background="@drawable/ic_upload"
+        android:layout_marginLeft="250dp"
+        />
+
+    <EditText
+        android:id="@+id/menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:layout_weight="0.5"
+        android:hint="메뉴 이름을 입력하세요 (필수)"
+        />
+    <EditText
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:autoSizeTextType="uniform"
+        android:layout_marginTop="20dp"
+        android:hint="맛집 이름을 입력하세요 (선택)"
+        />
+    <EditText
+        android:id="@+id/place_num"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:autoSizeTextType="uniform"
+        android:layout_marginTop="20dp"
+        android:hint="맛집 번호을 입력하세요 (선택)"
+        />
+
+
+    <EditText
+        android:id="@+id/place_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="20dp"
+        android:hint="맛집 영업시간을 입력하세요 (선택)"
+        android:autoSizeTextType="uniform"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:backgroundTint="#DF813A"
+        android:id="@+id/menu_add"
+        android:text="추가"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+
+</LinearLayout>
