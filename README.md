@@ -15,7 +15,7 @@
 * Item setOnclick Listener (Recycler view 안의 item을 클릭할 시)
   * 세부 정보, 이메일 주소, 주소 등 자세한 정보 표기
 
-* Intent를 사용한 외부 어플리케이션 이동
+* Intent를 사용한 외부 어플리케이션 이동 (위 사진 휴대전화, 메세지, 메일 버튼 참고)
   * 전화 기능
   * 메세지 기능
   * 메일 기능
@@ -25,11 +25,13 @@
   * 사진 업로드
   * 이름 및 번호 입력
   * 자동 동기화
+![KakaoTalk_Photo_2022-07-05-20-23-27 003](https://user-images.githubusercontent.com/99390261/177317026-c9ba9a12-7b5b-416b-b108-c04017e34ccb.png)
 
 * Delete feature
   * Delete 버튼을 누르고 item 을 클릭해서 삭제할 아이템 선택 가능
-  * 확인 버튼으로 최종 confirm 가능
-  
+  * 확인 버튼으로 최종 confirm 가능 (하단 사진 option bar 체크 버튼)
+  ![KakaoTalk_Photo_2022-07-05-20-23-27 001](https://user-images.githubusercontent.com/99390261/177317101-01cbc0c2-d056-4857-ac24-9774fc46531d.png)
+
 * option bar 이용으로 불 필요한 버튼 제거
 
 * SharedPreference 를 사용한 내부 영구 저장소 이용 (추가하거나 삭제한 정보가 앱 종류 후 유실되지 않음)
