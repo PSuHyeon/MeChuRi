@@ -44,8 +44,10 @@
 
 * pager를 사용한 사진 item 터치 후 자연스럽게 다른 이미지로 이동 가능
   * 자연스러운 pager 이동 모션 구현
-  ![KakaoTalk_Photo_2022-07-05-20-27-13 002](https://user-images.githubusercontent.com/99390261/177317503-e61f09b0-9358-4bda-84f9-411f9dd5bfbf.png)
-  ![Uploading KakaoTalk_Photo_2022-07-05-20-27-13 001.png…]()
+
+
+![KakaoTalk_Photo_2022-07-05-20-27-13 002](https://user-images.githubusercontent.com/99390261/177317503-e61f09b0-9358-4bda-84f9-411f9dd5bfbf.png)
+![Uploading KakaoTalk_Photo_2022-07-05-20-27-13 001.png…]()
 
 * Shared preference 를 사용한 영구 저장소 이용
 
