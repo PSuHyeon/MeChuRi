@@ -30,7 +30,8 @@
 * Delete feature
   * Delete 버튼을 누르고 item 을 클릭해서 삭제할 아이템 선택 가능
   * 확인 버튼으로 최종 confirm 가능 (하단 사진 option bar 체크 버튼)
-  ![KakaoTalk_Photo_2022-07-05-20-23-27 001](https://user-images.githubusercontent.com/99390261/177317101-01cbc0c2-d056-4857-ac24-9774fc46531d.png)
+  
+![KakaoTalk_Photo_2022-07-05-20-23-27 001](https://user-images.githubusercontent.com/99390261/177317101-01cbc0c2-d056-4857-ac24-9774fc46531d.png)
 
 * option bar 이용으로 불 필요한 버튼 제거
 
