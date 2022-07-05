@@ -78,4 +78,4 @@ https://user-images.githubusercontent.com/99390261/177318700-3c007667-3166-4e31-
 * 이름으로 좌표 찾는 API 구현
   * 위치 정보를 선택적 입력 가능 (이름으로 위치 정보 자동 입력)
   
-![KakaoTalk_Photo_2022-07-05-20-32-56 003](https://user-images.githubusercontent.com/99390261/177318418-377ab5ca-3d1d-40d1-9c5a-c9464fca3628.png]
+![KakaoTalk_Photo_2022-07-05-20-32-56 003](https://user-images.githubusercontent.com/99390261/177318418-377ab5ca-3d1d-40d1-9c5a-c9464fca3628.png)
