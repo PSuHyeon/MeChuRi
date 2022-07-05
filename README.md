@@ -38,16 +38,17 @@
 ## Tab 2: 갤러리 앱
 
 * 갤러리 자동 연동
+![KakaoTalk_Photo_2022-07-05-20-27-13 004](https://user-images.githubusercontent.com/99390261/177318066-97725c7f-1dd8-4ba9-b1c6-e3d137055349.png)
 
 * pager를 사용한 사진 item 터치 후 자연스럽게 다른 이미지로 이동 가능
   * 자연스러운 pager 이동 모션 구현
 
-
 ![KakaoTalk_Photo_2022-07-05-20-27-13 002](https://user-images.githubusercontent.com/99390261/177317503-e61f09b0-9358-4bda-84f9-411f9dd5bfbf.png)
 
-![Uploading KakaoTalk_Photo_2022-07-05-20-27-13 001.png…]()
-
 * Shared preference 를 사용한 영구 저장소 이용
+
+
+![KakaoTalk_Photo_2022-07-05-20-27-13 002](https://user-images.githubusercontent.com/99390261/177318090-de1c2f2b-5e4c-445f-9ba1-96f16366fb2f.png)
 
 ## Tab 3: 메뉴 추천 앱 ft.110여개의 카이스트 주변 맛집 정보
 
