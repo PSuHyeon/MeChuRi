@@ -9,6 +9,8 @@
   * 세부 정보 창
   * 이메일 주소
   * 주소
+ 
+![KakaoTalk_Photo_2022-07-05-20-23-27 002](https://user-images.githubusercontent.com/99390261/177316904-1718ae9d-c0f3-43bf-b1b5-7dcdc4c8ccf3.png)
   
 * Item setOnclick Listener (Recycler view 안의 item을 클릭할 시)
   * 세부 정보, 이메일 주소, 주소 등 자세한 정보 표기
