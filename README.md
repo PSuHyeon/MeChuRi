@@ -54,7 +54,7 @@
 
 ### (1) 메뉴 자동 룰렛 추천
 
-https://user-images.githubusercontent.com/99390261/177318700-3c007667-3166-4e31-9303-bb3ef8d4fee6.gif
+(https://user-images.githubusercontent.com/99390261/177318700-3c007667-3166-4e31-9303-bb3ef8d4fee6.gif)
 
 * 추천 시 dynamic 하게 ImageView와 TextView를 수정
 
